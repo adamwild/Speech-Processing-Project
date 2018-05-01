@@ -1,7 +1,6 @@
 clear all;
 
-%to remove before sending
-cd ('C:\Users\Adam\Desktop\Projet')
+
 cwd = pwd;
 file_vectors = strcat(cwd, '\vectors');
 

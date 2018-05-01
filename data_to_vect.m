@@ -1,7 +1,6 @@
 clear all;
 
-%to remove before sending
-cd ('C:\Users\Adam\Desktop\Projet')
+
 cwd = pwd;
 file_vectors = strcat(cwd, '\vectors');
 
@@ -12,7 +11,7 @@ cd(directory)
 words = [ string('three'); string('four'); string('seven');string('nine'); string('zero')];
 
 %Number of files to be used per directory
-max_files = 1000;
+max_files = 2000;
 
 s = '';
 for i = 1:length(words)
