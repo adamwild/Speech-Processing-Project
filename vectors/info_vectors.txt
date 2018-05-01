@@ -27,3 +27,15 @@ words = zero -> nine
 algo = lpc(x,a) , a:1->10
 max_files = 1000
 ------------------------
+
+file : 015
+words = 3, 4, 7, 9, 0
+algo = lpc(x,10)
+max_files = 1000
+------------------------
+
+file : 016
+words = 3, 4, 7, 9, 0
+algo = lpc(x,10)
+max_files = 2000
+------------------------
