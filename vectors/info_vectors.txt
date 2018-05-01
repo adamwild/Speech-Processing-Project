@@ -1,0 +1,29 @@
+file : 001
+words = one, two
+algo = lpc(x,2)
+max_files = 1000
+------------------------
+
+file : 002
+words = zero -> nine
+algo = lpc(x,2)
+max_files = 1000
+------------------------
+
+file : 003
+words = zero -> nine
+algo = lpc(x,10)
+max_files = 1000
+------------------------
+
+file : 004
+words = zero -> nine
+algo = lpc(x,20)
+max_files = 1000
+------------------------
+
+file : 005 -> 014
+words = zero -> nine
+algo = lpc(x,a) , a:1->10
+max_files = 1000
+------------------------
